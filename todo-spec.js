@@ -1,5 +1,5 @@
 describe('User navigates to node webpage and open Getting started guide', function() {
-  it('WHEN I click on docs link', function() {
+  it('GIVEN I am at node home page', function() {
     let expectedConditions = protractor.ExpectedConditions;
 
     browser.waitForAngularEnabled(false)
