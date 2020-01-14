@@ -15,7 +15,7 @@ describe('GIVEN I am at NodeJS home page', function() {
     guidesLink.click();
       //AND I click on Getting Started link at guides page
     gettinStartedLink.click();
-      //THEN I should see a JavaScript code in a board
+      //THEN I should see a JavaScript code in the page
     expect(expectedConditions.visibilityOf($('pre[class="language-javascript"]')), 5000);
   });
 });
