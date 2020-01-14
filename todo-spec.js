@@ -1,4 +1,4 @@
-describe('GIVEN I am at NodeJS home page', function() {
+describe('User navigates to node webpage and open Getting started guide', function() {
   it('WHEN I click on docs link', function() {
     let expectedConditions = protractor.ExpectedConditions;
 
